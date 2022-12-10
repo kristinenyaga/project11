@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Montserrat&family=Noto+Serif+Display:ital,wght@0,400;0,500;0,700;1,300&family=Poppins:ital,wght@0,300;0,400;0,600;1,300&family=Sanchez&family=Sarala&family=Satisfy&display=swap');
+.champ{
+  max-width: 385px;
+  max-height: 850px;
+  margin: 50px 25px 40px 25px;
+  border: 2px solid rgb(255, 247, 247);
+  box-shadow: black;
+
+}
+
+.champImg{
+  width: 100%;
+  object-fit: cover;
+  border-radius:7px ;
+  height: 280px;
+}
+
+.champInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.champCat{
+  font-size: 11px;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+  color: #be9656;
+  cursor: pointer;
+}
+
+.champTitle{
+  font-size: 32px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-family: 'Sanchez', serif;
+  color: rgb(75, 121, 247);
+}
+
+.champDate{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  margin-top:10px ;
+  font-weight: 600;
+}
+
+.champDesc{
+  font-size: 20px;
+  color: #444;
+  font-family: 'Sanchez', serif;
+  line-height: 24px;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow:ellipsis ;
+  display: -webkit-box;
+  -webkit-line-clamp:4 ;
+  -webkit-box-orient: vertical;
+}
+
+.displayflex{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Sanchez', serif;
+  font-size:20px ;
+}
+
+.description{
+  font-family: 'Sanchez', serif;
+  font-size: 20px;
+
+}
+
+.champtitle{
+  font-family: 'Sanchez', serif;
+  font-size: 19px;
+  color: lightcoral;
+
+  
+}
+
+.firstname{
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.imagepost{
+  width: 60px;
+  border-radius: 100%;
+}
+
+.phone_no{
+  color: red;
+  font-size: 20px;
+}
+
+.myBtn{
+  width: 100px;
+  background-color: rgb(128, 173, 240);
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.comment_title{
+  font-family: 'Satisfy', cursive;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.comment_ptag{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  border-bottom: #333;
+  color: red;
+}
